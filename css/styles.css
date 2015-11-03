@@ -1,0 +1,138 @@
+/***************/
+/* YOUR STYLES */
+/***************/
+ul{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+    color: #CC6603;
+}
+
+
+/* Color Palette */
+.color-1{
+    background-color:#66FF5B;
+}
+
+.color-2{
+    background-color: #7EB22E;
+}
+
+.color-3{
+    background-color: #AAFF9C;
+}
+
+.color-4{
+    background-color: #CC6603;
+}
+
+.color-5{
+    background-color: #B2875D;
+}
+
+/* Textures or Patterns*/
+.pattern-1{
+    background: url("http://www.designsponge.com/wp-content/uploads/2012/03/malachite_designsponge_8.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+.pattern-2{
+    background:url("http://bamboogarden.happytables.com/files/2012/06/green_bamboo_background-wide.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+.pattern-3{
+    background: url("http://images.kaneva.com/filestore7/4224144/5105472/MPA_5093UswirledUwoodUgrainU3.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+/* Imagery */
+.images img{
+    border-radius:5px;
+    box-shadow: 1px 1px #AAFF9C;
+}
+
+/* Icons */
+
+/* Navigation */
+.prime_navigation li{
+    display:inline;
+    
+    
+}
+.prime_navigation a{
+    padding:5px 15px;
+    border-radius:5px;
+    color:#fff;
+    background-color: #7EB22E;
+}
+
+.prime_navigation a:hover{
+    background-color:#AAFF9C;
+    color:#7f7f7f;
+    
+}
+.sec_navigation ul{
+    text-align:center;
+}
+.sec_navigation li{
+    padding:5px 0px;
+    margin-top:5px;
+}
+.sec_navigation a{
+    
+    width:50px;
+    background-color: #AAFF9C;
+    color:#000;
+    padding:5px 15px;
+    border-radius:5px;
+}
+.sec_navigation a:hover{
+    color: #000;
+    background-color:#AAFF9C;
+}
+
+.button{
+    border-style: none;
+    border-radius:5px;
+    font-size:1.5em;
+    padding:5px 15px;
+    color:#CC6603 ;
+    background-color: #7EB22E;
+    border-style: none;
+    
+}
+
+.sec_button{
+    border-style:none;
+    background-color:#AAFF9C;
+    padding:5px 25px;
+    border-radius:5px;
+    color:#B2875D;
+}
+/* Typography */
+
+h1, h2{
+    font-family: 'Arvo', serif;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+p, li a, a, td, figcaption, label, input{
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Forms */
+
+
+/* Tables */
+
+
+/* Cards */
