@@ -6,46 +6,49 @@ ul{
 }
 a{
     text-decoration: none;
-    color: #CC6603;
+    color: #033B03;
+}
+a:hover{
+    color:#3B0323;
 }
 
 
 /* Color Palette */
 .color-1{
-    background-color:#66FF5B;
+    background-color:#80D380;
 }
 
 .color-2{
-    background-color: #7EB22E;
+    background-color: #2D882D;
 }
 
 .color-3{
-    background-color: #AAFF9C;
+    background-color: #033B03;
 }
 
 .color-4{
-    background-color: #CC6603;
+    background-color: #AA6C39;
 }
 
 .color-5{
-    background-color: #B2875D;
+    background-color: #3B0323;
 }
 
 /* Textures or Patterns*/
 .pattern-1{
-    background: url("http://www.designsponge.com/wp-content/uploads/2012/03/malachite_designsponge_8.jpg");
+    background-image: url("/img/Melamine-wood-004.png");
     background-size:cover;
     background-repeat: no-repeat;
     
 }
 .pattern-2{
-    background:url("http://bamboogarden.happytables.com/files/2012/06/green_bamboo_background-wide.jpg");
+    background:url("/img/05-white-brick.png");
     background-size:cover;
     background-repeat: no-repeat;
     
 }
 .pattern-3{
-    background: url("http://images.kaneva.com/filestore7/4224144/5105472/MPA_5093UswirledUwoodUgrainU3.jpg");
+    background: url("/img/04-polish-wood.png");
     background-size:cover;
     background-repeat: no-repeat;
 }
@@ -66,15 +69,12 @@ a{
 }
 .prime_navigation a{
     padding:5px 15px;
-    border-radius:5px;
-    color:#fff;
-    background-color: #7EB22E;
+    border-radius:2px;
+    color:#3B0323;
 }
 
 .prime_navigation a:hover{
-    background-color:#AAFF9C;
-    color:#7f7f7f;
-    
+    background-color:#80D380;
 }
 .sec_navigation ul{
     text-align:center;
@@ -86,47 +86,42 @@ a{
 .sec_navigation a{
     
     width:50px;
-    background-color: #AAFF9C;
-    color:#000;
+    background-color: #80D380;
+    color:#3B0323;
     padding:5px 15px;
     border-radius:5px;
 }
-.sec_navigation a:hover{
-    color: #000;
-    background-color:#AAFF9C;
-}
+
 
 .button{
     border-style: none;
     border-radius:5px;
     font-size:1.5em;
     padding:5px 15px;
-    color:#CC6603 ;
-    background-color: #7EB22E;
+    color:#033B03 ;
+    background-color: #80D380;
     border-style: none;
     
 }
 
 .sec_button{
     border-style:none;
-    background-color:#AAFF9C;
+    background-color:#2D882D;
     padding:5px 25px;
     border-radius:5px;
-    color:#B2875D;
+    color:#3B0323;
 }
 /* Typography */
 
-h1, h2{
-    font-family: 'Arvo', serif;
-}
 
-h3{
+
+h3, h1, h2{
     font-family: 'Montserrat', sans-serif;
     
 }
 
 p, li a, a, td, figcaption, label, input{
-    font-family: 'Nunito', sans-serif;
+   font-family: 'Arvo', serif;
 }
 
 /*    Icon */
